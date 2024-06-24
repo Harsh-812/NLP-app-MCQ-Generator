@@ -47,7 +47,6 @@
         {% endfor %}
         <!-- Button to show results -->
         <button id="show-results-btn" class="btn btn-primary">Show Results</button>
-        <div id="score" class="mt-3 text-center"></div>
     </div>
     <!-- End of content -->
 
@@ -57,29 +56,13 @@
         // Get all elements with the 'correct-answer' class
         var correctAnswers = document.getElementsByClassName('correct-answer');
         var correctCount = 0;
-
-        // Loop through each correct answer and check if the selected answer is correct
+        // Loop through each element and display it
         for (var i = 0; i < correctAnswers.length; i++) {
-            var questionIndex = i + 1;
-            var selectedOption = document.querySelector('input[name="answer' + questionIndex + '"]:checked');
-            var correctOption = correctAnswers[i].textContent.split(': ')[1].charCodeAt(0) - 65; // Convert letter to index (A=0, B=1, C=2, D=3)
-            
-            if (selectedOption && parseInt(selectedOption.value) === correctOption) {
-                correctCount++;
-            }
-
-            // Show the correct answer
             correctAnswers[i].style.display = 'block';
         }
-
-        // Display the total score
-        var scoreDiv = document.getElementById('score');
-        scoreDiv.innerHTML = '<h3>Your Score: ' + correctCount + ' / ' + correctAnswers.length + '</h3>';
-
         // Hide the button after showing results
         this.style.display = 'none';
     });
 </script>
 </body>
-</html>
-
+</html>    

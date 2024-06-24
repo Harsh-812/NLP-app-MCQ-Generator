@@ -13,15 +13,15 @@ This project is a web application that generates multiple-choice questions (MCQs
 - Interactive Display: Display the generated MCQs on a separate page with the option to show correct answers.
 <hr>
 
-## steps to install app
+## Steps to run the application
 
 **Create python virtual environment**
 
 ```python<version> -m venv <env name>```
-**activate env**
+**Activate env**
 ```source mcqui/bin/activate ```
 
-***Install Dependecies***
+**Install Dependecies**
 
 ```pip install -r  requirements.txt ```
 

@@ -1,6 +1,6 @@
 # NLP-app-MCQ-Generator-via-PDFupload
 
-![image](https://github.com/Harsh-812/NLP-app-MCQ-Generator-via-PDFupload/assets/135538639/4a04148d-71cd-4467-8771-d041587b825a)
+![image](https://github.com/Harsh-812/NLP-app-MCQ-Generator/assets/135538639/d3e842c8-15b6-4d9c-afc7-7dad1eed6f69)
 
 ## steps to install app
 
